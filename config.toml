@@ -1,12 +1,9 @@
 baseurl = "https://almirahblog.netlify.com/"
-languageCode = "en-us"
-title = "Almira Blog"
-theme = "hugo-strata-theme-master"
 disqusShortname = "spf13"
-# Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
-# Define how many posts should appear on a site
+languageCode = "en-us"
 paginate = 10
+<<<<<<< HEAD
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
@@ -136,12 +133,87 @@ paginate = 10
 
 
 # Menu links that appear on the left sidebar
+=======
+theme = "hugo-strata-theme-master"
+title = "Almira Blog"
+>>>>>>> 0a50af500a6440fb396ac43c4b1735a1b9c617a1
 [[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 10
-
+name = "Blog"
+url = "post/"
+weight = 1
 [[menu.main]]
-	name = "Blog"
-	url  = "post/"
-	weight = 0
+name = "Home"
+url = "/"
+weight = 2
+[params]
+custom_css = []
+custom_js = []
+date_format = "2006-01-02T00:00:00+00:00"
+description = "Define Life With Happiness"
+name = "ALMIRA AMANTEAVA"
+show_read_time = false
+[params.about]
+content = "I am Almira Amanteava who wants to pervade happiness all around the world. Life is beautiful when you spread happiness around you"
+hide = false
+title = "Almirah World Through Her Blog"
+[params.contact]
+address = ["Sochi", "Krasnodarskiy Kray", "354008", "Russia Federation"]
+content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+email = "Almirahblog@gmail.com"
+gmaps_address = "39.7889055,-120.5443524"
+hide = false
+phone = "000-000-0000"
+title = "Get In Touch"
+[params.contact.form]
+email = "Email"
+message = "Message"
+name = "Name"
+submit = "Send message"
+[params.portfolio]
+hide = false
+title = "Recent Work"
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/01.jpg"
+thumb = "thumbs/01.jpg"
+title = "Lorem ipsum dolor."
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/02.jpg"
+thumb = "thumbs/02.jpg"
+title = "Lorem ipsum dolor."
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/03.jpg"
+thumb = "thumbs/03.jpg"
+title = "Lorem ipsum dolor."
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/04.jpg"
+thumb = "thumbs/04.jpg"
+title = "Lorem ipsum dolor."
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/05.jpg"
+thumb = "thumbs/05.jpg"
+title = "Lorem ipsum dolor."
+[[params.portfolio.gallery]]
+description = "Lorem ipsum dolor sit amet."
+image = "fulls/06.jpg"
+thumb = "thumbs/06.jpg"
+title = "Lorem ipsum dolor."
+[params.recentposts]
+hide = false
+title = "Recent blog posts"
+[params.sidebar]
+avatar = "avatar.jpg"
+bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+copyright = ["&copy; John Doe", "Design: [HTML5 UP](//html5up.net)", "Demo Images: [Unsplash](//unsplash.com/)"]
+dribbble = ""
+facebook = ""
+flickr = ""
+github = "spf13"
+gitlab = "spf13"
+googleplus = ""
+linkedin = ""
+twitter = "spf13"
