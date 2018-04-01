@@ -2,7 +2,7 @@ baseurl = "https://almirahblog.netlify.com/"
 languageCode = "en-us"
 title = "Almira Blog"
 theme = "hugo-strata-theme-master"
-disqusShortname = "spf13"
+disqusShortname = "Almira"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -31,9 +31,9 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**I'm Almira**, a super simple<br> easy girl from Russia<br> This is my [Blog Site](//almirahblog.netlify.com/)."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
+		twitter = ""
+		github = "Almirahblog"
+		gitlab = ""
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
@@ -107,7 +107,7 @@ paginate = 10
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"SOCHI, Krasnodarskiy Kray",
+			"Sochi, Krasnodarskiy Kray",
 			"Russia 354008",
 			"Russia Federation"
 		]
